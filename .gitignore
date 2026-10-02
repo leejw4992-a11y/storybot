@@ -1,0 +1,32 @@
+# --- 파이썬 ---
+__pycache__/
+*.py[cod]
+
+# --- 대용량 학습 데이터 (TinyStories) ---
+*.txt
+*.bin
+
+# --- 모델 가중치 / 체크포인트 ---
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# --- 토크나이저 학습 산출물 ---
+*.pkl
+
+# --- 학습 결과 / 로그 ---
+*.log
+loss*.png
+runs/
+wandb/
+
+# --- 주피터 ---
+.ipynb_checkpoints/
+
+# --- OS / 에디터 ---
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
